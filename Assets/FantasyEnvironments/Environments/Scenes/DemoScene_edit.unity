@@ -2257,6 +2257,8 @@ GameObject:
   - component: {fileID: 613997993}
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
+  - component: {fileID: 613997995}
+  - component: {fileID: 613997994}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2432,6 +2434,61 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &613997994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5662db7a78ed10944a62b27bb1056215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Footsteps
+  footstepsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  jumpEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  landEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  isGrounded: 1
+  isJumping: 0
+--- !u!114 &613997995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d95e26b5cbbe94f93658dcf4aa33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Outside_foot_switch
+  snapshotActivated: 0
+  outsideSnapshot:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &634753829
 GameObject:
   m_ObjectHideFlags: 0
