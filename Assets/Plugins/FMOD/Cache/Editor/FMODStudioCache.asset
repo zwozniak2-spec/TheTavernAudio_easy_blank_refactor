@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: C:/Users/zuzaw/Desktop/audio/Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639170733328512254
+  lastModified: 639170793641149723
   FileSizes:
   - Name: Desktop
-    Value: 3652544
+    Value: 3653248
   Exists: 1
 --- !u!114 &-6955403818360250660
 MonoBehaviour:
@@ -101,33 +101,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 90000
---- !u!114 &-6053628509876408496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Forest_Snapshot
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: snapshot:/Forest_Snapshot
-  Guid:
-    Data1: -854172092
-    Data2: 1283653379
-    Data3: 329641135
-    Data4: 237204112
-  Banks:
-  - {fileID: -6993437398399011948}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-5405606989191559683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,14 +208,14 @@ MonoBehaviour:
   - {fileID: -8062655021511946308}
   - {fileID: -8862368720016235783}
   - {fileID: -2121057865544155673}
-  - {fileID: -6053628509876408496}
+  - {fileID: 8798884129700002358}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6993437398399011948}
   StringsBanks:
   - {fileID: 2660705151639438696}
   cacheVersion: 131860
-  cacheTime: 639170733328512254
+  cacheTime: 639170793641162583
   SerializableEventsDict:
   - key: event:/Loop_Fireplace
     index: 0
@@ -264,7 +237,7 @@ MonoBehaviour:
     index: 8
   - key: event:/Land_Stone
     index: 9
-  - key: snapshot:/Forest_Snapshot
+  - key: snapshot:/Outside_Snapshot
     index: 10
 --- !u!114 &182454417485090768
 MonoBehaviour:
@@ -308,10 +281,10 @@ MonoBehaviour:
   Path: C:/Users/zuzaw/Desktop/audio/Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639170733328512254
+  lastModified: 639170793641162583
   FileSizes:
   - Name: Desktop
-    Value: 1258
+    Value: 1374
   Exists: 1
 --- !u!114 &4253397349094896805
 MonoBehaviour:
@@ -393,4 +366,31 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &8798884129700002358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside_Snapshot
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside_Snapshot
+  Guid:
+    Data1: -854172092
+    Data2: 1283653379
+    Data3: 329641135
+    Data4: 237204112
+  Banks:
+  - {fileID: -6993437398399011948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
