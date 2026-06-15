@@ -151,11 +151,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1636459642
-      Data2: 1197393787
-      Data3: -1301989243
-      Data4: -444797395
-    Path: event:/Amb_Loop_Tavern
+      Data1: 1489912914
+      Data2: 1271735660
+      Data3: -1494422377
+      Data4: -226501925
+    Path: event:/Music_Tavern
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -1487,6 +1487,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1174709690}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &341884030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341884032}
+  - component: {fileID: 341884031}
+  m_Layer: 0
+  m_Name: Fireplace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &341884031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341884030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 296271640
+      Data2: 1202551691
+      Data3: 1033112503
+      Data4: -1791497870
+    Path: event:/Loop_Fireplace
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &341884032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341884030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 388.887, y: 7.962, z: 319.693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409339037
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,11 +2688,11 @@ MonoBehaviour:
   snapshotActivated: 0
   outsideSnapshot:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -854172092
+      Data2: 1283653379
+      Data3: 329641135
+      Data4: 237204112
+    Path: snapshot:/Outside
 --- !u!1 &634753829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +2831,7 @@ Transform:
   m_GameObject: {fileID: 634753829}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403.67075, y: 7.29, z: 300.3}
+  m_LocalPosition: {x: 407.2, y: 7.29, z: 300.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7373,8 +7436,7 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1870695489415497684, guid: 63346a7448404644da8be8ff0a98a82b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7397,3 +7459,4 @@ SceneRoots:
   - {fileID: 634753834}
   - {fileID: 72208311}
   - {fileID: 8238825}
+  - {fileID: 341884032}

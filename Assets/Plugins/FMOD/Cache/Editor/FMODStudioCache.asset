@@ -128,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3116797897002074911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jump_Wood
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Jump_Wood
+  Guid:
+    Data1: -1154847587
+    Data2: 1292671455
+    Data3: -440706156
+    Data4: -1210003208
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2121057865544155673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +209,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1851789104348187874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Steps_Wood
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Steps_Wood
+  Guid:
+    Data1: 269276708
+    Data2: 1147050068
+    Data3: -454103106
+    Data4: -1395215555
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1654500657155955101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Tavern
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music_Tavern
+  Guid:
+    Data1: 1489912914
+    Data2: 1271735660
+    Data3: -1494422377
+    Data4: -226501925
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 90000
+--- !u!114 &-1334044110180982329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Land_Wood
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Land_Wood
+  Guid:
+    Data1: -916681570
+    Data2: 1223884961
+    Data3: -1119285324
+    Data4: 893374418
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,27 +303,28 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: 2660705151639438696}
-  - {fileID: -6993437398399011948}
+  - {fileID: 2482149550397762158}
+  - {fileID: 612163909619632088}
   EditorEvents:
-  - {fileID: 4253397349094896805}
-  - {fileID: 182454417485090768}
-  - {fileID: -6955403818360250660}
-  - {fileID: 6712089160617362230}
-  - {fileID: -1873287691174944353}
-  - {fileID: -5405606989191559683}
-  - {fileID: 6853862386443430375}
-  - {fileID: -8062655021511946308}
-  - {fileID: -8862368720016235783}
-  - {fileID: -2121057865544155673}
-  - {fileID: 8798884129700002358}
+  - {fileID: 6158950957969071512}
+  - {fileID: -1851789104348187874}
+  - {fileID: -1654500657155955101}
+  - {fileID: 622420630557451346}
+  - {fileID: 7015903121674895285}
+  - {fileID: 1524978422667277423}
+  - {fileID: -3116797897002074911}
+  - {fileID: -1334044110180982329}
+  - {fileID: 6062623870786470991}
+  - {fileID: 1125516071104663791}
+  - {fileID: 797923350440554714}
+  - {fileID: 1680280691610691554}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6993437398399011948}
+  - {fileID: 612163909619632088}
   StringsBanks:
-  - {fileID: 2660705151639438696}
+  - {fileID: 2482149550397762158}
   cacheVersion: 131860
-  cacheTime: 639170793641162583
+  cacheTime: 639171301554707335
   SerializableEventsDict:
   - key: event:/Loop_Fireplace
     index: 0
@@ -237,8 +346,10 @@ MonoBehaviour:
     index: 8
   - key: event:/Land_Stone
     index: 9
-  - key: snapshot:/Outside_Snapshot
+  - key: snapshot:/Inside
     index: 10
+  - key: snapshot:/Outside
+    index: 11
 --- !u!114 &182454417485090768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +377,181 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &612163909619632088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../../Desktop/Audio_15.06/audio/Audio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639171301554697323
+  FileSizes:
+  - Name: Desktop
+    Value: 3653760
+  Exists: 1
+--- !u!114 &622420630557451346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jump_Stone
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Jump_Stone
+  Guid:
+    Data1: 377617490
+    Data2: 1159444654
+    Data3: 2119836058
+    Data4: 1612266030
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &797923350440554714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Inside
+  Guid:
+    Data1: 1778842659
+    Data2: 1124050718
+    Data3: 718219187
+    Data4: -1107051674
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1125516071104663791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Land_Stone
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Land_Stone
+  Guid:
+    Data1: -1000962315
+    Data2: 1220635596
+    Data3: 1636034215
+    Data4: -992679420
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1524978422667277423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb_Loop_Tavern
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Amb_Loop_Tavern
+  Guid:
+    Data1: 1636459642
+    Data2: 1197393787
+    Data3: -1301989243
+    Data4: -444797395
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1680280691610691554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside
+  Guid:
+    Data1: -854172092
+    Data2: 1283653379
+    Data3: 329641135
+    Data4: 237204112
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2482149550397762158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../../Desktop/Audio_15.06/audio/Audio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639171301554707335
+  FileSizes:
+  - Name: Desktop
+    Value: 1586
+  Exists: 1
 --- !u!114 &2660705151639438696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +594,60 @@ MonoBehaviour:
   - {fileID: -6993437398399011948}
   IsStream: 1
   Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 95500
+--- !u!114 &6062623870786470991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb_Loop_Forest
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Amb_Loop_Forest
+  Guid:
+    Data1: 1186437032
+    Data2: 1122042064
+    Data3: -1061206871
+    Data4: 1893039793
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 102000
+--- !u!114 &6158950957969071512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Loop_Fireplace
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Loop_Fireplace
+  Guid:
+    Data1: 296271640
+    Data2: 1202551691
+    Data3: 1033112503
+    Data4: -1791497870
+  Banks:
+  - {fileID: 612163909619632088}
+  IsStream: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -360,6 +700,33 @@ MonoBehaviour:
     Data4: -1210003208
   Banks:
   - {fileID: -6993437398399011948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7015903121674895285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Steps_Stone
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Steps_Stone
+  Guid:
+    Data1: -1982844550
+    Data2: 1287783312
+    Data3: 1095658630
+    Data4: 40291691
+  Banks:
+  - {fileID: 612163909619632088}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
