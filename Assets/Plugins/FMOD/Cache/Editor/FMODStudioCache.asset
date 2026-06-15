@@ -324,7 +324,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 2482149550397762158}
   cacheVersion: 131860
-  cacheTime: 639171301554707335
+  cacheTime: 639171303061516539
   SerializableEventsDict:
   - key: event:/Loop_Fireplace
     index: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Audio_15.06/audio/Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639171301554697323
+  lastModified: 639171303061491499
   FileSizes:
   - Name: Desktop
     Value: 3653760
@@ -547,7 +547,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Audio_15.06/audio/Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639171301554707335
+  lastModified: 639171303061516539
   FileSizes:
   - Name: Desktop
     Value: 1586
