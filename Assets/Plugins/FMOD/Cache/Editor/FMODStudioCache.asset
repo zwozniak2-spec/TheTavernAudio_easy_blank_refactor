@@ -648,7 +648,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8939275393560409067}
   cacheVersion: 131860
-  cacheTime: 639178415425316830
+  cacheTime: 639179450414350439
   SerializableEventsDict:
   - key: event:/Loop_Fireplace
     index: 0
@@ -891,10 +891,10 @@ MonoBehaviour:
   Path: C:/Users/zuzaw/Desktop/audio/Audio_15.06/Audio_15.06/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639178415425306281
+  lastModified: 639179450414340393
   FileSizes:
   - Name: Desktop
-    Value: 3786592
+    Value: 4877568
   Exists: 1
 --- !u!114 &1680280691610691554
 MonoBehaviour:
@@ -1024,13 +1024,13 @@ MonoBehaviour:
     Data4: -444797395
   Banks:
   - {fileID: 1653204585349424780}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 94500
 --- !u!114 &2482149550397762158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   Path: C:/Users/zuzaw/Desktop/audio/Audio_15.06/Audio_15.06/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639178415425316830
+  lastModified: 639179450414350439
   FileSizes:
   - Name: Desktop
     Value: 1622

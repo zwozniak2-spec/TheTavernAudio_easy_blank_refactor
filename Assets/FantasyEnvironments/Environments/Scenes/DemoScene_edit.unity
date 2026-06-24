@@ -2652,11 +2652,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Footsteps
   footstepsEvent:
     Guid:
-      Data1: -1982844550
-      Data2: 1287783312
-      Data3: 1095658630
-      Data4: 40291691
-    Path: event:/OneShot-Steps_Stone
+      Data1: 269276708
+      Data2: 1147050068
+      Data3: -454103106
+      Data4: -1395215555
+    Path: event:/OneShot-Steps_Wood
   jumpEvent:
     Guid:
       Data1: 377617490
@@ -3547,6 +3547,69 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &1031517798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031517800}
+  - component: {fileID: 1031517799}
+  m_Layer: 0
+  m_Name: Amb_Tavern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1031517799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031517798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1636459642
+      Data2: 1197393787
+      Data3: -1301989243
+      Data4: -444797395
+    Path: event:/Amb_Loop_Tavern
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1031517800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031517798}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.9066311, z: -0, w: -0.4219243}
+  m_LocalPosition: {x: 401.393, y: 8.482, z: 319.614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 229.912, z: 0}
 --- !u!1 &1039452379
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,3 +7427,4 @@ SceneRoots:
   - {fileID: 8238825}
   - {fileID: 341884032}
   - {fileID: 1921447545}
+  - {fileID: 1031517800}
