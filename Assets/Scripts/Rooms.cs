@@ -16,7 +16,6 @@ public class Rooms : MonoBehaviour
         // Sprawdza, czy obiekt ma tag "Player".
         if (other.CompareTag("Player"))
         {
-            // Anuluj opóźnienie jeśli gracz wrócił do środka.
             if (exitCoroutine != null)
             {
                 StopCoroutine(exitCoroutine);
@@ -44,20 +43,15 @@ public class Rooms : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Opóźnia wyłączenie ambientu aby uniknąć błysku przy skoku.
-    /// </summary>
     private IEnumerator DelayedExit()
     {
         yield return new WaitForSeconds(0.5f);
-
         // Znajduje instancję RoomAmbient w scenie i ustawia flagę na false.
         RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
         if (roomAmbient != null)
         {
             roomAmbient.ambientActivated = false;
         }
-
         exitCoroutine = null;
     }
 }

@@ -1534,7 +1534,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 8
 --- !u!4 &341884032
 Transform:
   m_ObjectHideFlags: 0
@@ -2652,25 +2652,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Footsteps
   footstepsEvent:
     Guid:
-      Data1: 269276708
-      Data2: 1147050068
-      Data3: -454103106
-      Data4: -1395215555
-    Path: event:/OneShot-Steps_Wood
+      Data1: -1982844550
+      Data2: 1287783312
+      Data3: 1095658630
+      Data4: 40291691
+    Path: event:/Footsteps
   jumpEvent:
     Guid:
       Data1: 377617490
       Data2: 1159444654
       Data3: 2119836058
       Data4: 1612266030
-    Path: event:/Jump_Stone
+    Path: event:/Jump
   landEvent:
     Guid:
       Data1: -1000962315
       Data2: 1220635596
       Data3: 1636034215
       Data4: -992679420
-    Path: event:/Land_Stone
+    Path: event:/Land
   isGrounded: 1
   isJumping: 0
 --- !u!114 &613997995
@@ -3230,6 +3230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882882083}
+  - component: {fileID: 882882084}
   m_Layer: 0
   m_Name: RoomAmbientTriggers
   m_TagString: Untagged
@@ -3254,6 +3255,18 @@ Transform:
   - {fileID: 129069796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &882882084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882882082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rooms
 --- !u!1 &896572285
 GameObject:
   m_ObjectHideFlags: 0
