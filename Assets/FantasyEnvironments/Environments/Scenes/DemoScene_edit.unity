@@ -166,7 +166,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 8
 --- !u!4 &8238825
 Transform:
   m_ObjectHideFlags: 0
@@ -176,8 +176,8 @@ Transform:
   m_GameObject: {fileID: 8238823}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400.78, y: 8.453, z: 311.35}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 400.78, y: 8.825, z: 313.683}
+  m_LocalScale: {x: 2.6146, y: 2.6146, z: 2.6146}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3230,7 +3230,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882882083}
-  - component: {fileID: 882882084}
   m_Layer: 0
   m_Name: RoomAmbientTriggers
   m_TagString: Untagged
@@ -3255,18 +3254,6 @@ Transform:
   - {fileID: 129069796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &882882084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882882082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Rooms
 --- !u!1 &896572285
 GameObject:
   m_ObjectHideFlags: 0
