@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Desktop/Audio_15.06/audio/Audio/Audio.fspro
-  sourceBankPath: ../../../Desktop/Audio_15.06/audio/Audio/Build
+  sourceProjectPath: C:/Users/zuzaw/Desktop/Audio-Zaliczenie/Audio_15.06/Audio_15.06/Audio_15.06.fspro
+  sourceBankPath: C:/Users/zuzaw/Desktop/Audio-Zaliczenie/Audio_15.06/Audio_15.06/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1

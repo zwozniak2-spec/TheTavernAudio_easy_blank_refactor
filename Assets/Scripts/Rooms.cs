@@ -1,10 +1,13 @@
 using UnityEngine;
+using System.Collections;
 
 /// <summary>
 /// Zarządza stanem ambientu pokoju w zależności od pozycji gracza.
 /// </summary>
 public class Rooms : MonoBehaviour
 {
+    private Coroutine exitCoroutine;
+
     /// <summary>
     /// Wywoływane, gdy inny collider pozostaje wewnątrz triggera.
     /// </summary>
@@ -13,6 +16,12 @@ public class Rooms : MonoBehaviour
         // Sprawdza, czy obiekt ma tag "Player".
         if (other.CompareTag("Player"))
         {
+            if (exitCoroutine != null)
+            {
+                StopCoroutine(exitCoroutine);
+                exitCoroutine = null;
+            }
+
             // Znajduje instancję RoomAmbient w scenie i ustawia flagę na true.
             RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
             if (roomAmbient != null)
@@ -30,12 +39,19 @@ public class Rooms : MonoBehaviour
         // Sprawdza, czy obiekt ma tag "Player".
         if (other.CompareTag("Player"))
         {
-            // Znajduje instancję RoomAmbient w scenie i ustawia flagę na false.
-            RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
-            if (roomAmbient != null)
-            {
-                roomAmbient.ambientActivated = false;
-            }
+            exitCoroutine = StartCoroutine(DelayedExit());
         }
+    }
+
+    private IEnumerator DelayedExit()
+    {
+        yield return new WaitForSeconds(0.5f);
+        // Znajduje instancję RoomAmbient w scenie i ustawia flagę na false.
+        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
+        if (roomAmbient != null)
+        {
+            roomAmbient.ambientActivated = false;
+        }
+        exitCoroutine = null;
     }
 }
